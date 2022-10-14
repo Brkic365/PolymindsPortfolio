@@ -157,7 +157,7 @@ export default function Home() {
               whileTap={{ scale: 0.95 }}
               onClick={() => router.push("/#contact")}
             >
-              Let's talk
+              {"Let's talk"}
             </motion.button>
             <section className={styles.socialMediaCta}>
               <motion.button
