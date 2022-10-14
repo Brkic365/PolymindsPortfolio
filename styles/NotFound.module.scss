@@ -1,0 +1,128 @@
+.container {
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+
+  h1 {
+    display: none;
+  }
+
+  .notFound {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10rem;
+    color: #0b1723;
+
+    h2 {
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+
+    p {
+      margin: 1rem 0;
+      font-size: 0.9rem;
+      line-height: 1.4rem;
+      opacity: 0.8;
+    }
+
+    button {
+      border-radius: 1rem;
+      padding: 0.5rem 1rem;
+      border: none;
+      background: rgb(12, 57, 178);
+      background: linear-gradient(
+        90deg,
+        rgba(12, 57, 178, 1) 0%,
+        rgba(54, 101, 227, 1) 100%
+      );
+      color: white;
+    }
+  }
+}
+
+@media only screen and (min-width: 420px) {
+  .container {
+    .notFound {
+      h2 {
+        font-size: 2.2rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+        line-height: 1.9rem;
+      }
+
+      button {
+        font-size: 1rem;
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .container {
+    h1 {
+      display: flex;
+      position: absolute;
+      top: 6.5rem;
+      left: 0;
+      z-index: 1;
+      font-size: 47.5vw;
+      color: #f6f6f6;
+      text-shadow: -1px -1px 0 #3665e3, 1px -1px 0 #3665e3, -1px 1px 0 #3665e3,
+        1px 1px 0 #3665e3;
+      opacity: 0.09;
+    }
+
+    .notFound {
+      position: relative;
+      z-index: 2;
+      padding-top: 20rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .container {
+    .notFound {
+      padding-top: 25rem;
+
+      h2 {
+        font-size: 4rem;
+      }
+
+      p {
+        font-size: 1.5rem;
+        margin: 1.5rem 0;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .container {
+    h1 {
+      top: 0;
+    }
+
+    .notFound {
+      padding-top: 22rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .container {
+    h1 {
+      top: -10rem;
+    }
+
+    .notFound {
+      padding-top: 22rem;
+    }
+  }
+}

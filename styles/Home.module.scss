@@ -1,0 +1,1014 @@
+.container {
+  position: relative;
+  z-index: 1;
+
+  .main {
+    color: #0b1723;
+
+    h1 {
+      font-size: 1.7rem;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+    }
+
+    h3 {
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+
+    p {
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+    }
+
+    .hero {
+      width: 100%;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+
+      h1 {
+        span {
+          color: #0c39b2;
+        }
+      }
+
+      p {
+        margin: 0.75rem 0;
+      }
+
+      .cta {
+        display: flex;
+        align-items: center;
+
+        .mainCta {
+          border-radius: 1rem;
+          padding: 0.5rem 1rem;
+          border: none;
+          background: rgb(12, 57, 178);
+          background: linear-gradient(
+            90deg,
+            rgba(12, 57, 178, 1) 0%,
+            rgba(54, 101, 227, 1) 100%
+          );
+          color: white;
+          cursor: pointer;
+        }
+
+        .socialMediaCta {
+          display: flex;
+          align-items: center;
+
+          button {
+            margin-left: 0.5rem;
+            height: 2rem;
+            width: 2rem;
+            border-radius: 50%;
+            border: none;
+            background-color: #e3e6e5;
+            color: #283037;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .imageHolders {
+        width: 100%;
+        margin-top: 7rem;
+        position: relative;
+
+        div {
+          position: absolute;
+          width: 100%;
+          height: 15vh;
+          background-image: url("../public/images/macbook-plant.webp");
+          background-size: cover;
+          border-radius: 0.5rem;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+
+        .imageHolder:nth-child(2) {
+          top: 15.5vh;
+          width: 33%;
+          height: 18vh;
+          background-image: url("../public/images/macbook-table.webp");
+        }
+
+        .imageHolder:nth-child(3) {
+          left: 36%;
+          top: 15.5vh;
+          width: 64%;
+          height: 8.5vh;
+          background-image: url("../public/images/typing.webp");
+          background-position: 0% 70%;
+        }
+
+        .imageHolder:nth-child(4) {
+          left: 36%;
+          top: 24.75vh;
+          width: 64%;
+          height: 8.5vh;
+          background-image: url("../public/images/macbook-plant.webp");
+        }
+      }
+    }
+
+    .whatWeDo {
+      margin-top: 11rem;
+      padding: 1rem;
+      padding-top: 10rem;
+      background-color: #0b1723;
+      color: #f6e7e5;
+
+      .title {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+        .line {
+          margin: 1rem 0;
+          width: 5rem;
+          height: 3px;
+          background-color: #f6e7e5;
+        }
+
+        p {
+          opacity: 0.8;
+        }
+      }
+
+      .steps {
+        margin-top: 4rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        place-content: space-between;
+        justify-content: center;
+        gap: 1.5rem;
+
+        .step {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          text-align: center;
+
+          svg {
+            width: 1.7rem;
+            height: 1.7rem;
+          }
+
+          h3 {
+            margin: 0.75rem 0;
+          }
+
+          p {
+            opacity: 0.7;
+          }
+
+          .seperator {
+            margin-top: 1.5rem;
+            width: 7rem;
+            height: 1px;
+            background-color: #f6e7e5;
+            opacity: 0.4;
+          }
+        }
+      }
+    }
+
+    .ourWork {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      .title {
+        display: flex;
+        align-items: center;
+        width: 120%;
+
+        h1 {
+          font-size: 25vw;
+          white-space: nowrap;
+          color: #f6f6f6;
+          text-shadow: -1px -1px 0 #3665e3, 1px -1px 0 #3665e3,
+            -1px 1px 0 #3665e3, 1px 1px 0 #3665e3;
+        }
+
+        .line {
+          width: 100vw;
+          height: 1px;
+          background-color: #3665e3;
+          opacity: 0.5;
+        }
+      }
+
+      .title:nth-child(1) {
+        margin-top: 1.5rem;
+        h1 {
+          margin-right: 1rem;
+        }
+      }
+
+      .title:nth-child(2) {
+        margin-top: -0.5rem;
+        h1 {
+          margin-left: 1rem;
+          margin-right: -1rem;
+        }
+
+        .line {
+          width: 25vw;
+        }
+      }
+
+      .projects {
+        margin-top: 4rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        place-content: space-between;
+        justify-content: center;
+        gap: 0.5rem;
+
+        .project {
+          width: 8rem;
+          height: 8rem;
+          background-size: cover;
+          background-position: 50% 0%;
+          border-radius: 0.5rem;
+          box-shadow: rgba(28, 34, 41, 0.2) 0px 8px 24px;
+          cursor: pointer;
+
+          .content {
+            padding: 0.5rem;
+            transition: 0.25s ease-in-out;
+            opacity: 0;
+            background-color: rgba(28, 34, 41, 0.8);
+            width: 100%;
+            height: 100%;
+            border-radius: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+
+            h4 {
+              color: white;
+              font-size: 1.3rem;
+            }
+
+            p {
+              color: white;
+              font-size: 0.8rem;
+              font-weight: lighter;
+              margin-top: 0.5rem;
+            }
+          }
+
+          &:hover {
+            .content {
+              opacity: 1;
+            }
+          }
+        }
+      }
+
+      button {
+        margin-top: 1rem;
+        border-radius: 1rem;
+        padding: 0.5rem 1rem;
+        border: none;
+        background: rgb(12, 57, 178);
+        background: linear-gradient(
+          90deg,
+          rgba(12, 57, 178, 1) 0%,
+          rgba(54, 101, 227, 1) 100%
+        );
+        color: white;
+        cursor: pointer;
+      }
+    }
+
+    .whoWeAre {
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+      padding: 1rem;
+
+      .title {
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+        .line {
+          width: 90%;
+          height: 1px;
+          background-color: #0b1723;
+          opacity: 0.25;
+        }
+
+        p {
+          opacity: 0.8;
+          margin: 1rem 0;
+        }
+      }
+
+      .images {
+        margin-top: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        place-content: space-between;
+        justify-content: center;
+        gap: 0.5rem;
+
+        .image {
+          width: 8rem;
+          height: 8rem;
+          background-image: url("../public/images/foot_fetish.png");
+          background-size: cover;
+          background-position: 50% 0%;
+          border-radius: 0.5rem;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+
+        .image:nth-child(2) {
+          background-image: url("../public/images/5am.png");
+        }
+
+        .image:nth-child(3) {
+          background-image: url("../public/images/pencil.png");
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  .container {
+    .main {
+      .hero {
+        .imageHolders {
+          .imageHolder:nth-child(2) {
+            width: 45%;
+          }
+
+          .imageHolder:nth-child(3),
+          .imageHolder:nth-child(4) {
+            left: 47.5%;
+            width: 52.5%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .container {
+    .main {
+      .ourWork {
+        .projects {
+          .project {
+            width: 45vw;
+          }
+        }
+
+        button {
+          font-size: 0.9rem;
+          padding: 0.75rem 1.5rem;
+          border-radius: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .container {
+    .main {
+      h2 {
+        font-size: 2rem;
+      }
+
+      .hero {
+        h1 {
+          font-size: 2.3rem;
+        }
+
+        p {
+          font-size: 1rem;
+          line-height: 1.5rem;
+        }
+
+        .cta {
+          .mainCta {
+            font-size: 0.9rem;
+            padding: 0.75rem 1.5rem;
+            border-radius: 2rem;
+          }
+
+          .socialMediaCta {
+            button {
+              width: 2.7rem;
+              height: 2.7rem;
+
+              svg {
+                width: 1rem;
+                height: 1rem;
+              }
+            }
+          }
+        }
+      }
+
+      .whatWeDo {
+        margin-top: 12rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .title {
+          max-width: 35rem;
+          p {
+            font-size: 0.85rem;
+            line-height: 1.45rem;
+          }
+        }
+
+        .steps {
+          .step {
+            max-width: 20rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  .container {
+    .main {
+      .whoWeAre {
+        .title {
+          p {
+            font-size: 0.9rem;
+            line-height: 1.4rem;
+          }
+        }
+
+        .images {
+          .image {
+            width: 14rem;
+            height: 14rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    .main {
+      .hero {
+        h1 {
+          max-width: 30rem;
+        }
+
+        p {
+          max-width: 30rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .container {
+    .main {
+      .hero {
+        .imageHolders {
+          .imageHolder:nth-child(1) {
+            width: 24%;
+            height: 30vh;
+            top: 8vh;
+          }
+
+          .imageHolder:nth-child(2) {
+            width: 50%;
+            height: 14.5vh;
+            left: 25%;
+            top: 4vh;
+          }
+
+          .imageHolder:nth-child(3) {
+            width: 50%;
+            left: 25%;
+            height: 14.5vh;
+            top: 19vh;
+          }
+
+          .imageHolder:nth-child(4) {
+            width: 24%;
+            height: 30vh;
+            left: 76%;
+            top: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .container {
+    .main {
+      .ourWork {
+        .projects {
+          .project {
+            width: 29.5vw;
+            height: 20vh;
+          }
+
+          .project:nth-child(2),
+          .project:nth-child(6),
+          .project:nth-child(12) {
+            width: 60vw;
+          }
+        }
+      }
+
+      .whoWeAre {
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .title {
+          max-width: 48rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .container {
+    .main {
+      .hero {
+        padding-top: 5rem;
+        h1 {
+          font-size: 2.75rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .container {
+    .main {
+      .hero {
+        align-items: flex-start;
+        padding: 2rem;
+        padding-top: 6rem;
+
+        h1 {
+          text-align: left;
+          font-size: 3.5rem;
+          max-width: 40rem;
+          line-height: 5rem;
+        }
+
+        p {
+          text-align: left;
+          margin: 1rem 0;
+        }
+
+        .cta {
+          .mainCta {
+            font-size: 1rem;
+            padding: 1rem 2rem;
+          }
+
+          .socialMediaCta {
+            button {
+              width: 3.2rem;
+              height: 3.2rem;
+
+              svg {
+                width: 1rem;
+                height: 1rem;
+              }
+            }
+          }
+        }
+
+        .imageHolders {
+          margin: 0 auto;
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .container {
+    .main {
+      .hero {
+        .imageHolders {
+          width: 90%;
+          .imageHolder:nth-child(1) {
+            width: 23%;
+            height: 32vh;
+            top: 8vh;
+          }
+
+          .imageHolder:nth-child(2) {
+            width: 45%;
+            height: 14.5vh;
+            left: 27.5%;
+            top: 4vh;
+          }
+
+          .imageHolder:nth-child(3) {
+            width: 45%;
+            left: 27.5%;
+            height: 14.5vh;
+            top: 21vh;
+          }
+
+          .imageHolder:nth-child(4) {
+            width: 23%;
+            height: 32vh;
+            left: 77%;
+            top: 0;
+          }
+        }
+      }
+
+      .ourWork {
+        .projects {
+          max-width: 60rem;
+
+          .project {
+            width: 19.5rem;
+            height: 20vh;
+          }
+
+          .project:nth-child(2),
+          .project:nth-child(6),
+          .project:nth-child(12) {
+            width: 40rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1060px) {
+  .container {
+    .main {
+      .whatWeDo {
+        padding-bottom: 3rem;
+        .steps {
+          .step {
+            position: relative;
+            padding-right: 1.5rem;
+            .seperator {
+              position: absolute;
+              right: 0;
+              top: 50%;
+              transform: translateY(-50%);
+              margin-top: 0;
+              width: 1px;
+              height: 5rem;
+              opacity: 0.4;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    .main {
+      h2 {
+        font-size: 2.3rem;
+      }
+
+      .hero {
+        padding: 3rem;
+        padding-top: 7rem;
+
+        h1 {
+          font-size: 4rem;
+          max-width: 50rem;
+        }
+
+        p {
+          font-size: 1.2rem;
+          line-height: 1.8rem;
+          max-width: 35rem;
+        }
+      }
+
+      .whoWeAre {
+        .images {
+          gap: 1rem;
+
+          .image {
+            width: 18rem;
+            height: 18rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  .container {
+    .main {
+      .hero {
+        .imageHolders {
+          .imageHolder:nth-child(1) {
+            height: 42vh;
+            top: 8vh;
+          }
+
+          .imageHolder:nth-child(2) {
+            height: 19.5vh;
+          }
+
+          .imageHolder:nth-child(3) {
+            height: 19.5vh;
+            top: 26vh;
+          }
+
+          .imageHolder:nth-child(4) {
+            height: 42vh;
+          }
+        }
+      }
+
+      .whatWeDo {
+        padding-top: 17rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .container {
+    .main {
+      .whatWeDo {
+        padding: 4rem;
+        padding-top: 19rem;
+        align-items: flex-start;
+
+        .title {
+          align-items: flex-start;
+          text-align: left;
+
+          h2 {
+            font-size: 3rem;
+          }
+
+          .line {
+            width: 10rem;
+            height: 5px;
+            opacity: 0.7;
+          }
+        }
+
+        .steps {
+          margin-top: 7rem;
+          width: 100%;
+          justify-content: flex-start;
+
+          .step {
+            min-width: 28%;
+            align-items: flex-start;
+            padding: 2rem;
+            text-align: left;
+            padding-left: 0;
+            margin-right: 2rem;
+
+            svg {
+              width: 1.8rem;
+              height: 1.8rem;
+            }
+
+            h3 {
+              font-size: 1.4rem;
+              margin: 1rem 0;
+            }
+
+            .seperator {
+              right: 0;
+            }
+          }
+        }
+      }
+
+      .ourWork {
+        .projects {
+          max-width: 65rem;
+          gap: 1rem;
+
+          .project {
+            height: 25vh;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .container {
+    .main {
+      .hero {
+        padding: 4rem;
+        padding-top: 9rem;
+
+        h1 {
+          font-size: 5rem;
+          max-width: 60rem;
+          line-height: 7rem;
+        }
+
+        p {
+          font-size: 1.3rem;
+          line-height: 2rem;
+        }
+
+        .cta {
+          .mainCta {
+            font-size: 1.2rem;
+            padding: 0.75rem 1.75rem;
+          }
+        }
+      }
+
+      .whatWeDo {
+        padding: 5rem;
+        padding-top: 16rem;
+        padding-left: 6.5rem;
+
+        .title {
+          h2 {
+            font-size: 5rem;
+          }
+
+          .line {
+            width: 20rem;
+            margin: 1.5rem 0;
+          }
+
+          p {
+            font-size: 1.1rem;
+            line-height: 1.7rem;
+          }
+        }
+
+        .steps {
+          .step {
+            padding: 3rem;
+            padding-left: 0;
+            margin-right: 3rem;
+            padding-right: 6rem;
+
+            svg {
+              width: 1.7rem;
+              height: 1.7rem;
+            }
+
+            h3 {
+              font-size: 2rem;
+              margin: 1rem 0;
+            }
+
+            p {
+              font-size: 1rem;
+              line-height: 1.4rem;
+            }
+
+            .seperator {
+              right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+  .container {
+    .main {
+      .hero {
+        .imageHolders {
+          max-width: 90rem;
+          .imageHolder:nth-child(1) {
+            height: 52vh;
+            top: 8vh;
+          }
+
+          .imageHolder:nth-child(2) {
+            height: 24.5vh;
+          }
+
+          .imageHolder:nth-child(3) {
+            height: 24.5vh;
+            top: 31vh;
+          }
+
+          .imageHolder:nth-child(4) {
+            height: 52vh;
+          }
+        }
+      }
+
+      .whatWeDo {
+        padding-top: 25rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .container {
+    .main {
+      .whatWeDo {
+        .steps {
+          .step {
+            padding: 5rem;
+            padding-left: 0;
+            margin-right: 4rem;
+            padding-right: 10rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .container {
+    .main {
+      .hero {
+        align-items: center;
+
+        h1 {
+          text-align: center;
+        }
+
+        p {
+          text-align: center;
+        }
+
+        .imageHolders {
+          display: none;
+        }
+      }
+
+      .whatWeDo {
+        align-items: center;
+        padding-top: 3rem;
+
+        .title {
+          align-items: center;
+          text-align: center;
+        }
+
+        .steps {
+          justify-content: center;
+
+          .step {
+            align-items: center;
+            text-align: center;
+            min-width: 0rem;
+            max-width: 30rem;
+            padding: 4rem;
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+}
