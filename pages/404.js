@@ -24,7 +24,7 @@ function NotFound() {
       <h1>404</h1>
 
       <main className={styles.notFound}>
-        <h2>Something's wrong</h2>
+        <h2>{"Something's wrong"}</h2>
         <p>{"We can't find the page you are looking for."}</p>
         <button onClick={() => router.push("/")}>Go to the homepage</button>
       </main>
