@@ -182,6 +182,7 @@
     }
 
     .ourWork {
+      margin-bottom: 10rem;
       display: flex;
       align-items: center;
       flex-direction: column;
@@ -307,16 +308,23 @@
         flex-direction: column;
         text-align: center;
 
+        .content {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          text-align: center;
+
+          p {
+            opacity: 0.8;
+            margin: 1rem 0;
+          }
+        }
+
         .line {
           width: 90%;
           height: 1px;
           background-color: #0b1723;
           opacity: 0.25;
-        }
-
-        p {
-          opacity: 0.8;
-          margin: 1rem 0;
         }
       }
 
@@ -458,7 +466,7 @@
     .main {
       .whoWeAre {
         .title {
-          p {
+          .content p {
             font-size: 0.9rem;
             line-height: 1.4rem;
           }
@@ -911,6 +919,30 @@
             .seperator {
               right: 0;
             }
+          }
+        }
+      }
+
+      .whoWeAre {
+        .title {
+          max-width: 70rem;
+          .content {
+            flex-direction: row;
+
+            h2 {
+              font-size: 4rem;
+              width: 50%;
+            }
+
+            p {
+              text-align: left;
+              font-size: 0.9rem;
+              width: 50%;
+            }
+          }
+
+          .line {
+            width: 100%;
           }
         }
       }

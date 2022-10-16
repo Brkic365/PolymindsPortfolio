@@ -253,10 +253,7 @@ export default function Home() {
             <section className={styles.projects}>
               {
                 // Map through first 6 or 7 projects and display them accordingly
-
-                // We want to map through 6 if width is less than 750px, and 7 if
-                // it is bigger than 750px, because of change in arrangement
-                projects.slice(0, width < 750 ? 6 : 7).map((project, i) => {
+                projects.slice(0, 5).map((project, i) => {
                   return (
                     <section
                       className={styles.project}
@@ -279,16 +276,20 @@ export default function Home() {
         </section>
 
         {/* Who we are section */}
+        {/* 
         <section className={styles.whoWeAre} id="who-we-are">
           <section className={styles.title}>
-            <h2>Who we are</h2>
+            <section className={styles.content}>
+              {" "}
+              <h2>Who we are</h2>
+              <p>
+                Our job as a web development agency is to bring you the best and
+                the highest quality work out there, and we assure you that we do
+                exactly that. With a team full of experienced professionals,
+                creating high quality work is a simple task.
+              </p>
+            </section>
 
-            <p>
-              Our job as a web development agency is to bring you the best and
-              the highest quality work out there, and we assure you that we do
-              exactly that. With a team full of experienced professionals,
-              creating high quality work is a simple task.
-            </p>
             <div className={styles.line} />
           </section>
 
@@ -300,6 +301,7 @@ export default function Home() {
             </section>
           </Fade>
         </section>
+        */}
       </main>
     </div>
   );
