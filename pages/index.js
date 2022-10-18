@@ -252,8 +252,8 @@ export default function Home() {
           <Fade cascade triggerOnce delay={50}>
             <section className={styles.projects}>
               {
-                // Map through first 6 or 7 projects and display them accordingly
-                projects.slice(0, 5).map((project, i) => {
+                // Map through first 6 or 7 (depends on width) projects and display them accordingly
+                projects.slice(0, width > 750 ? 7 : 6).map((project, i) => {
                   return (
                     <section
                       className={styles.project}
