@@ -128,9 +128,8 @@ function PrivacyPolicy() {
                 <strong>Website</strong> refers to Polyminds, accessible from{" "}
                 <a
                   href="https://polyminds.vercel.app/"
-                  rel="external nofollow noopener"
+                  rel="external nofollow noopener noreferrer"
                   target="_blank"
-                  rel="noreferrer"
                 >
                   https://polyminds.vercel.app/
                 </a>
@@ -549,9 +548,8 @@ function PrivacyPolicy() {
                 By visiting this page on our website:{" "}
                 <a
                   href="https://polyminds.vercel.app/#contact"
-                  rel="external nofollow noopener"
+                  rel="external nofollow noopener noreferrer"
                   target="_blank"
-                  rel="noreferrer"
                 >
                   https://polyminds.vercel.app/#contact
                 </a>
