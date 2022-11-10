@@ -187,7 +187,7 @@ function TermsAndConditions() {
             liability of the Company and any of its suppliers under any
             provision of this Terms and Your exclusive remedy for all of the
             foregoing shall be limited to the amount actually paid by You
-            through the Service or 100 USD if You haven't purchased anything
+            through the Service or 100 USD if You {"haven't"} purchased anything
             through the Service.
           </p>
           <p>
@@ -207,8 +207,8 @@ function TermsAndConditions() {
             Some states do not allow the exclusion of implied warranties or
             limitation of liability for incidental or consequential damages,
             which means that some of the above limitations may not apply. In
-            these states, each party's liability will be limited to the greatest
-            extent permitted by law.
+            these states, each {"party's"} liability will be limited to the
+            greatest extent permitted by law.
           </p>
           <h1>&quot;AS IS&quot; and &quot;AS AVAILABLE&quot; Disclaimer</h1>
           <p>
@@ -232,9 +232,9 @@ function TermsAndConditions() {
           </p>
           <p>
             Without limiting the foregoing, neither the Company nor any of the
-            company's provider makes any representation or warranty of any kind,
-            express or implied: (i) as to the operation or availability of the
-            Service, or the information, content, and materials or products
+            {"company's"} provider makes any representation or warranty of any
+            kind, express or implied: (i) as to the operation or availability of
+            the Service, or the information, content, and materials or products
             included thereon; (ii) that the Service will be uninterrupted or
             error-free; (iii) as to the accuracy, reliability, or currency of
             any information or content provided through the Service; or (iv)
@@ -290,7 +290,7 @@ function TermsAndConditions() {
           <p>
             Except as provided herein, the failure to exercise a right or to
             require performance of an obligation under these Terms shall not
-            effect a party's ability to exercise such right or require such
+            effect a {"party's"} ability to exercise such right or require such
             performance at any time thereafter nor shall the waiver of a breach
             constitute a waiver of any subsequent breach.
           </p>
@@ -304,9 +304,9 @@ function TermsAndConditions() {
           <p>
             We reserve the right, at Our sole discretion, to modify or replace
             these Terms at any time. If a revision is material We will make
-            reasonable efforts to provide at least 30 days' notice prior to any
-            new terms taking effect. What constitutes a material change will be
-            determined at Our sole discretion.
+            reasonable efforts to provide at least 30 {"days'"} notice prior to
+            any new terms taking effect. What constitutes a material change will
+            be determined at Our sole discretion.
           </p>
           <p>
             By continuing to access or use Our Service after those revisions
