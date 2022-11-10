@@ -87,6 +87,7 @@ function TermsAndConditions() {
                 <a
                   href="https://www.termsfeed.com/terms-conditions-generator/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   TermsFeed Terms and Conditions Generator
                 </a>
@@ -106,7 +107,7 @@ function TermsAndConditions() {
                 <strong>Website</strong> refers to Polyminds, accessible from{" "}
                 <a
                   href="https://www.polyminds.vercel.app/"
-                  rel="external nofollow noopener"
+                  rel="external nofollow noopener noreferrer"
                   target="_blank"
                 >
                   https://www.polyminds.vercel.app/
@@ -328,7 +329,7 @@ function TermsAndConditions() {
                 By visiting this page on our website:{" "}
                 <a
                   href="https://polyminds.vercel.app/#contact"
-                  rel="external nofollow noopener"
+                  rel="external nofollow noopener noreferrer"
                   target="_blank"
                 >
                   https://polyminds.vercel.app/#contact

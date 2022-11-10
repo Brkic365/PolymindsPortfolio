@@ -44,6 +44,7 @@ function PrivacyPolicy() {
             <a
               href="https://www.termsfeed.com/privacy-policy-generator/"
               target="_blank"
+              rel="noreferrer"
             >
               TermsFeed Privacy Policy Generator
             </a>
@@ -129,6 +130,7 @@ function PrivacyPolicy() {
                   href="https://polyminds.vercel.app/"
                   rel="external nofollow noopener"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   https://polyminds.vercel.app/
                 </a>
@@ -222,6 +224,7 @@ function PrivacyPolicy() {
             <a
               href="https://www.termsfeed.com/blog/cookies/#What_Are_Cookies"
               target="_blank"
+              rel="noreferrer"
             >
               TermsFeed website
             </a>{" "}
@@ -548,6 +551,7 @@ function PrivacyPolicy() {
                   href="https://polyminds.vercel.app/#contact"
                   rel="external nofollow noopener"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   https://polyminds.vercel.app/#contact
                 </a>
