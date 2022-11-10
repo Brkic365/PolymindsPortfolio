@@ -77,7 +77,14 @@ function Navbar() {
         })}
       </ul>
 
-      <button className={styles.cta}>Get in touch</button>
+      <motion.button
+        className={styles.cta}
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
+        onClick={() => router.push("/#contact")}
+      >
+        Get in touch
+      </motion.button>
 
       <div
         className={styles.hamburger}

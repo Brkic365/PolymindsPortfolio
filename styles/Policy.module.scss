@@ -39,11 +39,53 @@
       }
     }
 
-    p {
+    .content {
       margin-top: 1rem;
-      font-size: 0.8rem;
-      line-height: 1.1rem;
       opacity: 0.8;
+      max-width: 100%;
+
+      p {
+        font-size: 0.8rem;
+        line-height: 1.1rem;
+        margin: 0.5rem 0;
+      }
+
+      ul {
+        margin-left: 2rem;
+
+        li {
+          margin: 1rem 0;
+          font-size: 0.8rem;
+        }
+      }
+
+      h1,
+      h2,
+      h3 {
+        margin-top: 1rem;
+        margin-bottom: 0.6rem;
+      }
+
+      h1 {
+        font-size: 1rem;
+        line-height: 2rem;
+      }
+
+      h2 {
+        font-size: 1rem;
+        line-height: 1.8rem;
+      }
+
+      h3 {
+        font-size: 0.9rem;
+        line-height: 1.4rem;
+      }
+
+      a {
+        color: #0c39b2;
+        text-decoration: underline;
+        cursor: pointer;
+      }
     }
   }
 }
@@ -74,8 +116,30 @@
         }
       }
 
-      p {
+      .content {
         margin-left: 2.5rem;
+
+        h1,
+        h2,
+        h3 {
+          margin-top: 2rem;
+          margin-bottom: 1rem;
+        }
+
+        h1 {
+          font-size: 1.8rem;
+          line-height: 2rem;
+        }
+
+        h2 {
+          font-size: 1.4rem;
+          line-height: 1.8rem;
+        }
+
+        h3 {
+          font-size: 1.2rem;
+          line-height: 1.4rem;
+        }
       }
     }
   }
@@ -96,10 +160,14 @@
         }
       }
 
-      p {
-        font-size: 1rem;
-        line-height: 1.4rem;
+      .content {
         margin-left: 3.5rem;
+
+        p,
+        ul li {
+          font-size: 1rem;
+          line-height: 1.4rem;
+        }
       }
     }
   }
