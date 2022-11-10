@@ -173,7 +173,10 @@ export default function Home() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() =>
-                  window.open("https://www.facebook.com/", "_ blank")
+                  window.open(
+                    "https://www.facebook.com/people/Polyminds/100087741548596/",
+                    "_ blank"
+                  )
                 }
               >
                 <FaFacebookF />

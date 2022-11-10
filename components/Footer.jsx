@@ -52,7 +52,9 @@ function Footer() {
               </li>
               <li>
                 <FaFacebookF />
-                <a href="https://facebook.com/MindsPoly">Polyminds</a>
+                <a href="https://www.facebook.com/people/Polyminds/100087741548596/">
+                  Polyminds
+                </a>
               </li>
             </ul>
           </section>
