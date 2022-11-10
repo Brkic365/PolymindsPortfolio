@@ -44,15 +44,31 @@ function Footer() {
               </li>
               <li>
                 <FaInstagram />
-                <a href="https://instagram.com/polyminds">@polyminds</a>
+                <a
+                  href="https://instagram.com/polyminds"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  @polyminds
+                </a>
               </li>
               <li>
                 <FaTwitter />
-                <a href="https://twitter.com/MindsPoly">@MindsPoly</a>
+                <a
+                  href="https://twitter.com/MindsPoly"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  @MindsPoly
+                </a>
               </li>
               <li>
                 <FaFacebookF />
-                <a href="https://www.facebook.com/people/Polyminds/100087741548596/">
+                <a
+                  href="https://www.facebook.com/people/Polyminds/100087741548596/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Polyminds
                 </a>
               </li>
