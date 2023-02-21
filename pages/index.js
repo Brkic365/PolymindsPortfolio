@@ -50,7 +50,7 @@ const projects = [
     description:
       "EBankc is the most rewarding and secured institution in the DeFi industry",
     image: "ebankc.webp",
-    href: "https://ebankc.app/",
+    href: "https://ebankc.vercel.app/",
   },
   {
     name: "Minty Solutions",
