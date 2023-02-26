@@ -38,9 +38,7 @@ function Footer() {
             <ul>
               <li>
                 <FaEnvelope />
-                <a href="mailto:group.polyminds@gmail.com">
-                  group.polyminds@gmail.com
-                </a>
+                <a href="mailto:info@polyminds.tech">info@polyminds.tech</a>
               </li>
               <li>
                 <FaInstagram />

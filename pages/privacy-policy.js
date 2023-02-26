@@ -127,11 +127,11 @@ function PrivacyPolicy() {
               <p>
                 <strong>Website</strong> refers to Polyminds, accessible from{" "}
                 <a
-                  href="https://polyminds.vercel.app/"
+                  href="https://www.polyminds.tech/"
                   rel="external nofollow noopener noreferrer"
                   target="_blank"
                 >
-                  https://polyminds.vercel.app/
+                  https://www.polyminds.tech/
                 </a>
               </p>
             </li>
@@ -541,17 +541,17 @@ function PrivacyPolicy() {
           </p>
           <ul>
             <li>
-              <p>By email: group.polyminds@gmail.com</p>
+              <p>By email: info@polyminds.tech</p>
             </li>
             <li>
               <p>
                 By visiting this page on our website:{" "}
                 <a
-                  href="https://polyminds.vercel.app/#contact"
+                  href="https://www.polyminds.tech/#contact"
                   rel="external nofollow noopener noreferrer"
                   target="_blank"
                 >
-                  https://polyminds.vercel.app/#contact
+                  https://www.polyminds.tech/#contact
                 </a>
               </p>
             </li>
