@@ -90,7 +90,10 @@ function Footer() {
           </section>
         </section>
 
-        <p>Copyright © Polyminds 2022. All Rights Reserved.</p>
+        <p>
+          Copyright © Polyminds 2022 - {new Date().getFullYear()}. All Rights
+          Reserved.
+        </p>
       </footer>
     </div>
   );
