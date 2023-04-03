@@ -87,11 +87,11 @@ const projects = [
     href: "https://qa.sanomind.com/",
   },
   {
-    name: "Crypto Exchange",
+    name: "Dream Finders",
     description:
-      "A Crypto Exchange Web Application on which clients can buy 4 main types of crypto: Bitcoin, Ethereum, Litecoin and Bitcoin Cash",
-    image: "macbook-plant.webp",
-    href: "https://crypto-exchange-liard.vercel.app/",
+      "Real estate website where you can explore our diverse range of listings and find your dream property",
+    image: "dream-finders.webp",
+    href: "https://dream-finders.vercel.app/",
   },
 ];
 
@@ -256,7 +256,7 @@ export default function Home() {
             <section className={styles.projects}>
               {
                 // Map through first 6 or 7 (depends on width) projects and display them accordingly
-                projects.slice(0, width > 750 ? 7 : 6).map((project, i) => {
+                projects.slice(0, 8).map((project, i) => {
                   return (
                     <section
                       className={styles.project}
