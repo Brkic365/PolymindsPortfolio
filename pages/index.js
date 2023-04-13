@@ -93,6 +93,13 @@ const projects = [
     image: "dream-finders.webp",
     href: "https://dream-finders.vercel.app/",
   },
+  {
+    name: "Code for Good",
+    description:
+      "Dynamic, single-page website designed and developed using Next.js, featuring information on a fictional hackathon event with responsive design and interactive features",
+    image: "code-for-good.webp",
+    href: "https://codeforgood-hackathon.vercel.app/",
+  },
 ];
 
 export default function Home() {
@@ -255,8 +262,8 @@ export default function Home() {
           <Fade cascade triggerOnce delay={50}>
             <section className={styles.projects}>
               {
-                // Map through first 6 or 7 (depends on width) projects and display them accordingly
-                projects.slice(0, 8).map((project, i) => {
+                // Map through first 9 projects and display them accordingly
+                projects.slice(0, 9).map((project, i) => {
                   return (
                     <section
                       className={styles.project}
