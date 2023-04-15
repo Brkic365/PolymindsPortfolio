@@ -21,19 +21,19 @@ const steps = [
   {
     title: "Design",
     description:
-      "Our job as a web development agency is to bring you the best and the highest quality.",
+      "Our design team creates visually stunning and user-friendly websites that elevate our clients' online presence and help achieve their business goals.",
     icon: <FaPencilRuler />,
   },
   {
     title: "Development",
     description:
-      "Our job as a web development agency is to bring you the best and the highest quality.",
+      "Our development team builds robust and scalable web applications that are tailored to meet the unique needs of our clients and deliver exceptional user experiences.",
     icon: <FaLaptopCode />,
   },
   {
     title: "Optimization",
     description:
-      "Our job as a web development agency is to bring you the best and the highest quality.",
+      "Our optimization team enhances website performance, speed, and search engine ranking to boost online visibility and engagement for our clients.",
     icon: <FaWrench />,
   },
 ];
