@@ -53,6 +53,13 @@ const projects = [
     href: "https://ebankc.vercel.app/",
   },
   {
+    name: "Siteboost",
+    description:
+      "Siteboost is a platform where you can audit your website and get a score.",
+    image: "siteboost.webp",
+    href: "https://site-boost.vercel.app/",
+  },
+  {
     name: "Minty Solutions",
     description:
       "All-in-one digital marketing service personalised to your project that enhances and optimizes social media management and marketing",
@@ -262,8 +269,8 @@ export default function Home() {
           <Fade cascade triggerOnce delay={50}>
             <section className={styles.projects}>
               {
-                // Map through first 9 projects and display them accordingly
-                projects.slice(0, 9).map((project, i) => {
+                // Map through projects and display them accordingly
+                projects.map((project, i) => {
                   return (
                     <section
                       className={styles.project}
