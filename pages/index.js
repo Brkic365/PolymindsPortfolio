@@ -263,7 +263,7 @@ export default function Home() {
             <section className={styles.projects}>
               {
                 // Map through first 9 projects and display them accordingly
-                projects.slice(0, 9).map((project, i) => {
+                projects.map((project, i) => {
                   return (
                     <section
                       className={styles.project}
