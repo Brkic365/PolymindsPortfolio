@@ -128,10 +128,6 @@ export default function Home() {
       // Add event listener
       window.addEventListener("resize", handleResize);
 
-      if (window.matchMedia("(pointer: coarse)").matches) {
-        setTouchscreen(true);
-      }
-
       // Call handler right away so state gets updated with initial window size
       handleResize();
 
@@ -268,32 +264,28 @@ export default function Home() {
 
           <Fade cascade triggerOnce delay={50}>
             <section className={styles.projects}>
-              {
-                // Map through projects and display them accordingly
-                projects.map((project, i) => {
-                  return (
-                    <section
-                      className={styles.project}
-                      key={i}
-                      style={{
-                        backgroundImage: `url(${process.env.DEV_URL}/images/projects/${project.image})`,
-                      }}
-                      onClick={() => window.open(project.href, "_ blank")}
-                    >
-                      <section className={styles.content}>
-                        <h4>{project.name}</h4>
-                        <p>{project.description}</p>
-                      </section>
+              {projects.map((project, i) => {
+                return (
+                  <section
+                    className={styles.project}
+                    key={i}
+                    style={{
+                      backgroundImage: `url(${process.env.DEV_URL}/images/projects/${project.image})`,
+                    }}
+                    onClick={() => window.open(project.href, "_ blank")}
+                  >
+                    <section className={styles.content}>
+                      <h4>{project.name}</h4>
+                      <p>{project.description}</p>
                     </section>
-                  );
-                })
-              }
+                  </section>
+                );
+              })}
             </section>
           </Fade>
         </section>
 
         {/* Who we are section */}
-        {/* 
         <section className={styles.whoWeAre} id="who-we-are">
           <section className={styles.title}>
             <section className={styles.content}>
@@ -315,10 +307,10 @@ export default function Home() {
               <section className={styles.image} />
               <section className={styles.image} />
               <section className={styles.image} />
+              <section className={styles.image} />
             </section>
           </Fade>
         </section>
-        */}
       </main>
     </div>
   );

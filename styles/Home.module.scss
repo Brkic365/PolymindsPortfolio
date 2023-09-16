@@ -340,7 +340,7 @@
         .image {
           width: 8rem;
           height: 8rem;
-          background-image: url("../public/images/people/person_1.png");
+          background-image: url("../public/images/people/person_2.jpg");
           background-size: cover;
           background-position: 50% 0%;
           border-radius: 0.5rem;
@@ -348,11 +348,15 @@
         }
 
         .image:nth-child(2) {
-          background-image: url("../public/images/people/person_2.png");
+          background-image: url("../public/images/people/person_1.jpg");
         }
 
         .image:nth-child(3) {
-          background-image: url("../public/images/people/person_3.png");
+          background-image: url("../public/images/people/person_3.jpg");
+        }
+
+        .image:nth-child(4) {
+          background-image: url("../public/images/people/person_4.jpg");
         }
       }
     }
