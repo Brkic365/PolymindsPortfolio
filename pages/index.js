@@ -286,6 +286,7 @@ export default function Home() {
         </section>
 
         {/* Who we are section */}
+        {/*
         <section className={styles.whoWeAre} id="who-we-are">
           <section className={styles.title}>
             <section className={styles.content}>
@@ -311,6 +312,7 @@ export default function Home() {
             </section>
           </Fade>
         </section>
+            */}
       </main>
     </div>
   );
